@@ -11,3 +11,7 @@ endif
 if BUILD_NDPI
 SUBDIRS += ndpi
 endif
+
+if BUILD_PCAP_OVER_IP
+SUBDIRS += pcap-over-ip
+endif
